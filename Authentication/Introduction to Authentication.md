@@ -1,5 +1,4 @@
 
-
 ---
 
 # 🔒 **High-Level Summary: Authentication Vulnerabilities**
@@ -141,4 +140,69 @@ Authentication vulnerabilities arise from **weak** or **flawed mechanisms** used
 - **P**ossession: Devices and tokens.
 - **I**nherence: Biometrics (who you are).
 
+---
+
+---
+
+## 🎥 **Video Notes: Authentication Overview**
+
+### **Key Concepts**
+
+- **Authentication**: The process of an entity (e.g., user or computer) proving they are who they claim to be.
+- **Three Main Factors for Authentication**:
+    1. **Something you know**: e.g., passwords, security questions.
+    2. **Something you have**: e.g., physical tokens, smartphones.
+    3. **Something you are**: e.g., biometrics (fingerprints, facial recognition).
+- **Important Reminder**: Even if a web application uses one or more factors, it does _not_ guarantee the authentication mechanism is secure.
+
+---
+
+### **Common Types of Authentication**
+
+1. **Password-Based Authentication**
+    - Relies on knowledge factors (e.g., passwords).
+2. **Multi-Factor Authentication (MFA)**
+    - Combines multiple factors for improved security (e.g., password + token).
+3. **Application Behavior/Side-Channel Analysis**
+    - Authentication inferred from behavioral patterns or indirect observations.
+
+---
+
+### **Common Weaknesses**
+
+- **Lack of Brute-Force Protection**:
+    - Systems fail to limit repeated login attempts, enabling password guessing.
+- **Logic Flaws**:
+    - Vulnerabilities due to flawed processes (e.g., parameter tampering).
+
+---
+
+### **General Process for Analyzing Authentication**
+
+1. **Map the Authentication Attack Surface**:
+    - Identify every step from being unauthenticated to authenticated.
+2. **Create Multiple Accounts**:
+    - Test various scenarios to spot inconsistencies or vulnerabilities.
+3. **Check for Brute-Force Protection**:
+    - Verify whether login attempts are rate-limited or blocked after a threshold.
+4. **Inspect Libraries and Frameworks**:
+    - Assess if the application uses standard and secure libraries.
+5. **Detect Logic Issues**:
+    - Look for logical flaws in the authentication flow.
+6. **Inspect Tokens**:
+    - Analyze token integrity, structure, and expiration settings.
+
+---
+
+### **Additional Resources**
+
+1. **My Checklist**:  
+    [Authentication Checklist](https://appsecexplained.gitbook.io/appsecexplained/common-vulns/authentication)
+    
+2. **OWASP Testing Guide**:  
+    [OWASP Web Security Testing Guide v4.2](https://owasp.org/www-project-web-security-testing-guide/v42/)
+    
+3. **Guided Lab**:  
+    [Lab: Password Reset Broken Logic](https://portswigger.net/web-security/authentication/other-mechanisms/lab-password-reset-broken-logic)
+    
 ---

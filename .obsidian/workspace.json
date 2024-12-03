@@ -162,11 +162,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "006c0ef26558edb7",
+  "active": "26e7fc842e5d81de",
   "lastOpenFiles": [
     "README.md",
-    "Welcome.md",
     "Authentication/Introduction to Authentication.md",
+    "Welcome.md",
     "Authentication"
   ]
 }
