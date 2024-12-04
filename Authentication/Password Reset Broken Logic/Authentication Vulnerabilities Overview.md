@@ -1,3 +1,6 @@
+## 🔗 Related Labs
+- [[Lab - Password Reset Broken Logic]]
+#authentication #security #vulnerabilities
 
 ---
 
