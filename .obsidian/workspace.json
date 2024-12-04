@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Authentication/Password Reset Broken Logic/Authentication Vulnerabilities Overview.md",
+                "file": "Authentication/2 - Authentication - Brute Force/Lab - Brute Forcing Authentication.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Authentication Vulnerabilities Overview"
+              "title": "Lab - Brute Forcing Authentication"
             }
           }
         ]
@@ -162,25 +162,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "006c0ef26558edb7",
+  "active": "c957b65468e0dbfa",
   "lastOpenFiles": [
-    "Authentication/Password Reset Broken Logic/Raw Notes - Lab Password Reset Broken Logic.md",
-    "Authentication/Password Reset Broken Logic",
-    "Untitled/Untitled",
-    "Authentication/Password Reset Broken Logic/Lab - Password Reset Broken Logic.md",
-    "Authentication/Password Reset Broken Logic/Authentication Vulnerabilities Overview.md",
-    "Authentication/Password Reset Broken Logic/Lab - Password Reset Broken Logic Screenshots/Pasted image 20241203220732.png",
-    "Authentication/Password Reset Broken Logic/Lab - Password Reset Broken Logic Screenshots",
     "Tools/Prompt.md",
-    "Authentication/Password Reset Broken Logic/Lab - Password Reset Broken Logic Screenshots/Pasted image 20241203220636.png",
-    "Authentication/Password Reset Broken Logic/Lab - Password Reset Broken Logic Screenshots/Pasted image 20241203220337.png",
-    "Authentication/Password Reset Broken Logic/Lab - Password Reset Broken Logic Screenshots/Pasted image 20241203220252.png",
-    "Authentication/Password Reset Broken Logic/Lab - Password Reset Broken Logic Screenshots/Pasted image 20241203220159.png",
-    "Authentication/Password Reset Broken Logic/Lab - Password Reset Broken Logic Screenshots/Pasted image 20241203220001.png",
-    "Authentication/Password Reset Broken Logic/Lab - Password Reset Broken Logic Screenshots/Pasted image 20241203214724.png",
-    "Authentication/Password Reset Broken Logic/Lab - Password Reset Broken Logic Screenshots/Pasted image 20241203212410.png",
-    "Authentication/Password Reset Broken Logic/Lab - Password Reset Broken Logic Screenshots/Pasted image 20241203212321.png",
-    "Authentication/Password Reset Broken Logic/Lab - Password Reset Broken Logic Screenshots/Pasted image 20241203212118.png",
+    "Lab - Username Enumeration via Subtly Different Responses.md",
+    "Authentication/2 - Authentication - Brute Force/Brute Force Attacks Overview.md",
+    "Authentication/2 - Authentication - Brute Force/Lab - Brute Forcing Authentication.md",
+    "Authentication/2 - Authentication - Brute Force/Raw Notes - Brute Force.md",
+    "Authentication/1- Authentication - Intro/Lab - Password Reset Broken Logic.md",
+    "Authentication/1- Authentication - Intro/Authentication Vulnerabilities Overview.md",
+    "Authentication/1- Authentication - Intro/Raw Notes - Lab Password Reset Broken Logic.md",
+    "Authentication/Authentication - Brute Force/Overview - Brute Force.md",
+    "Authentication/2 - Authentication - Brute Force",
+    "Authentication/1- Authentication - Intro",
+    "Untitled/Untitled",
+    "Authentication/1- Authentication - Intro/Lab - Password Reset Broken Logic Screenshots/Pasted image 20241203220732.png",
+    "Authentication/1- Authentication - Intro/Lab - Password Reset Broken Logic Screenshots",
+    "Authentication/1- Authentication - Intro/Lab - Password Reset Broken Logic Screenshots/Pasted image 20241203220636.png",
+    "Authentication/1- Authentication - Intro/Lab - Password Reset Broken Logic Screenshots/Pasted image 20241203220337.png",
+    "Authentication/1- Authentication - Intro/Lab - Password Reset Broken Logic Screenshots/Pasted image 20241203220252.png",
+    "Authentication/1- Authentication - Intro/Lab - Password Reset Broken Logic Screenshots/Pasted image 20241203220159.png",
+    "Authentication/1- Authentication - Intro/Lab - Password Reset Broken Logic Screenshots/Pasted image 20241203220001.png",
+    "Authentication/1- Authentication - Intro/Lab - Password Reset Broken Logic Screenshots/Pasted image 20241203214724.png",
+    "Authentication/1- Authentication - Intro/Lab - Password Reset Broken Logic Screenshots/Pasted image 20241203212410.png",
+    "Authentication/1- Authentication - Intro/Lab - Password Reset Broken Logic Screenshots/Pasted image 20241203212321.png",
+    "Authentication/1- Authentication - Intro/Lab - Password Reset Broken Logic Screenshots/Pasted image 20241203212118.png",
     "Tools",
     "README.md",
     "Welcome.md",
