@@ -2,6 +2,7 @@
 # 🔐 Brute Force Attacks Overview
 
 ## Key Takeaways
+
 - **Brute Force Attacks** involve systematically guessing credentials using trial and error.
 - Common targets include:
   - **Usernames**
@@ -48,4 +49,4 @@ ffuf -request req.txt -request-proto https -mode clusterbomb \
 
 ---
 
-#brute-force #authentication #pentesting
+#brute-force #authentication 

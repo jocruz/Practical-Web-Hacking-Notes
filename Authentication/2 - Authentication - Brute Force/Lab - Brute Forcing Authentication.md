@@ -7,6 +7,7 @@ Use brute force techniques to identify valid username and password combinations.
 ---
 
 ## Lab Steps
+
 1. **Initial Login Attempt**:
    - Go to "My Account" and attempt a login with invalid credentials.
    - Observe the error message ("Invalid Username").
@@ -20,6 +21,7 @@ Use brute force techniques to identify valid username and password combinations.
      ```
 
 3. **Username Enumeration with Burp Intruder**:
+   
    - Add **Payload Position Marker** around the `username` field.
    - Load a username wordlist (e.g., `/usr/share/seclists/Usernames/`).
    - Start the attack and look for:
@@ -62,8 +64,15 @@ Use brute force techniques to identify valid username and password combinations.
 ---
 
 ## Related Notes
-- [[Raw Notes - Brute Force]]
-- [[Brute Force Attacks Overview]]
+
+- [[Raw Notes - Brute Force]]  
+    _(Detailed exploration of brute force techniques, including content-length indicators and practical troubleshooting tips.)_
+    
+- [[Brute Force Attacks Overview]]  
+    _(High-level summary of brute force attack methodologies, tools, and their applications in web app penetration testing.)_
+    
+- [[Lab - Username Enumeration via Subtly Different Responses]]  
+    _(Lab focusing on identifying valid usernames through subtle differences in server responses, a foundational step before brute-forcing passwords.)_
 
 ---
 
