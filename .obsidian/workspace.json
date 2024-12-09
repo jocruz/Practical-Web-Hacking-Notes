@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Youtube Script.md",
+                "file": "Authentication/5 - Multi-Factor Authentication/Multi-Factor Authentication Overview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Youtube Script"
+              "title": "Multi-Factor Authentication Overview"
             }
           },
           {
@@ -193,6 +193,10 @@
   },
   "active": "986b1210d007aa05",
   "lastOpenFiles": [
+    "Authentication/1 - Authentication - Intro/1 - Authentication Vulnerabilities Overview.md",
+    "Authentication/5 - Multi-Factor Authentication/Multi-Factor Authentication Overview.md",
+    "Youtube Script.md",
+    "Authentication/5 - Multi-Factor Authentication",
     "README.md",
     "Authentication/1 - Authentication - Intro/2 - Lab - Password Reset Broken Logic.md",
     "Authentication/4 - Authentication - Sequencer/1 - Lab- Brute forcing a Stay-Logged-In Cookie.md",
@@ -217,7 +221,6 @@
     "Authentication/4 - Authentication - Sequencer",
     "Untitled",
     "Authentication/3 - Authentication - Response Timings/Untitled",
-    "Youtube Script.md",
     "Authentication/3 - Authentication - Response Timings/Untitled.md",
     "Lab - Username Enumeration via Subtly Different Responses.md",
     "Burp Suite Notes.md",
@@ -225,7 +228,6 @@
     "Tools/Prompt.md",
     "Authentication/3 - Authentication - Response Timings/Rate Limiting.md",
     "Authentication/3 - Authentication - Response Timings",
-    "Authentication/1 - Authentication - Intro/1 - Authentication Vulnerabilities Overview.md",
     "Authentication/Authentication - Brute Force/Overview - Brute Force.md",
     "Authentication/2 - Authentication - Brute Force",
     "Authentication/1 - Authentication - Intro",
@@ -235,7 +237,6 @@
     "Authentication/1 - Authentication - Intro/Screenshots/Pasted image 20241203220636.png",
     "Authentication/1 - Authentication - Intro/Screenshots/Pasted image 20241203220337.png",
     "Authentication/1 - Authentication - Intro/Screenshots/Pasted image 20241203220252.png",
-    "Tools",
     "Welcome.md"
   ]
 }
