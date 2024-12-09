@@ -2,7 +2,8 @@
 ---
 ## Lab: Username Enumeration via Subtly Different Responses
 
-[Lab Link](https://portswigger.net/web-security/authentication/password-based/lab-username-enumeration-via-subtly-different-responses)
+## Challenge Lab: [Lab Username Enumeration via Subtly Different Responses](https://portswigger.net/web-security/authentication/password-based/lab-username-enumeration-via-subtly-different-responses)
+
 
 ### Objective
 
@@ -80,8 +81,8 @@ Identify valid usernames and passwords by analyzing subtle differences in server
 ### **What to Do Next**
 
 1. Practice similar enumeration labs to solidify the methodology.
-    - [[Lab - Brute Forcing Authentication]]
-    - [[Brute Force Attacks Overview]]
+    - [[2 - Lab - Brute Forcing Authentication]]
+    - [[1 - Brute Force Attacks Overview]]
 2. Experiment with **ffuf** for comparison with Burp Suite.
 3. Study real-world cases where subtle server responses led to vulnerabilities.
 
@@ -90,7 +91,7 @@ Identify valid usernames and passwords by analyzing subtle differences in server
 ### **Related Topics**
 
 - [[Authentication Flaws]]
-- [[Brute Force Attacks Overview]]
+- [[1 - Brute Force Attacks Overview]]
 - [[Burp Suite Notes]]
 - [[Username Enumeration]]
 

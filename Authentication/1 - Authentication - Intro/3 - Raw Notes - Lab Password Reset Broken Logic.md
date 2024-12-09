@@ -2,7 +2,7 @@ Port Swigger lab:
 [https://portswigger.net/web-security/authentication/other-mechanisms/lab-password-reset-broken-logic](https://portswigger.net/web-security/authentication/other-mechanisms/lab-password-reset-broken-logic)
 
 ## 🔗 Related Labs
-- [[Lab - Password Reset Broken Logic]]
+- [[2 - Lab - Password Reset Broken Logic]]
 #authentication #security #vulnerabilities #Rawnotes
 # Lab: Password reset broken logic
 

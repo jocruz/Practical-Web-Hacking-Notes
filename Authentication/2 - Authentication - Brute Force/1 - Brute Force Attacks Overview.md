@@ -39,13 +39,13 @@ ffuf -request req.txt -request-proto https -mode clusterbomb \
 
 ## Related Notes
 - [[Raw Notes - Brute Force]]
-- [[Lab - Brute Forcing Authentication]]
+- [[2 - Lab - Brute Forcing Authentication]]
 
 ---
 
 ## Related Labs
 - [[Lab - Username Enumeration via Subtly Different Responses]]
-- [[Lab - Brute Forcing Authentication]]
+- [[2 - Lab - Brute Forcing Authentication]]
 
 ---
 

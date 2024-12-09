@@ -1,6 +1,6 @@
 ### **Introduction to Authentication: Password Reset Broken Logic**
 ## 🔗 Related Topics
-- [[Authentication Vulnerabilities Overview]]
+- [[1 - Authentication Vulnerabilities Overview]]
 #authentication #lab #password-reset
 
 ---

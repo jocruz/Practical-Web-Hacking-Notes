@@ -4,6 +4,7 @@
 ## Objective
 Use brute force techniques to identify valid username and password combinations.
 
+[Guided Lab: Brute Force Attacks](https://portswigger.net/web-security/authentication/password-based/lab-username-enumeration-via-different-responses)
 ---
 
 ## Lab Steps
@@ -68,7 +69,7 @@ Use brute force techniques to identify valid username and password combinations.
 - [[Raw Notes - Brute Force]]  
     _(Detailed exploration of brute force techniques, including content-length indicators and practical troubleshooting tips.)_
     
-- [[Brute Force Attacks Overview]]  
+- [[1 - Brute Force Attacks Overview]]  
     _(High-level summary of brute force attack methodologies, tools, and their applications in web app penetration testing.)_
     
 - [[Lab - Username Enumeration via Subtly Different Responses]]  

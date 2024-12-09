@@ -1,6 +1,4 @@
 
-# Rate Limiting
-
 ## What is Rate Limiting?
 - **Definition**: Rate limiting controls how many requests a user can send to an application in a given timeframe to prevent abuse, such as brute force attacks or Denial of Service (DoS).
 - **Also Known As**: Throttling.
@@ -86,3 +84,39 @@
 
 ---
 
+### **Observation Section**
+
+---
+
+#### **Key Takeaways**
+
+1. **Header Manipulation**:
+    
+    - By modifying the `X-Forwarded-For` header, we were able to bypass lockout mechanisms, demonstrating how applications often rely on client-provided headers for user tracking and blocking.
+    - This highlights the importance of sanitizing and verifying user-controlled inputs on the server side.
+2. **Response Timing**:
+    
+    - Timing attacks can reveal sensitive information. In this lab, we identified valid usernames and passwords based on differences in response times, showcasing how application behavior can inadvertently leak information.
+3. **Intruder Techniques**:
+    
+    - Using payload combinations with a **Pitchfork** attack allowed simultaneous testing of multiple variables (e.g., usernames and IP variations), increasing efficiency compared to other attack types.
+
+---
+
+#### **Why We Used a Pitchfork Attack**
+
+- **Efficiency**: The Pitchfork attack enables pairing two payload sets to test combinations of inputs in a single request. This is ideal when:
+    - One payload (e.g., `X-Forwarded-For` header modifications) influences the lockout mechanism.
+    - Another payload (e.g., usernames or passwords) identifies valid credentials.
+- **Contrast with Other Attacks**:
+    - A **Sniper** attack tests one variable at a time, making it unsuitable for cases where multiple variables interact.
+    - A **Cluster Bomb** attack generates all possible combinations of payloads, which is inefficient and unnecessary when the pairing of specific values suffices.
+
+#### **How the Pitchfork Attack Works**
+
+- In a Pitchfork attack, each payload position corresponds to a separate payload list. These lists are processed in parallel, pairing the first item from list 1 with the first item from list 2, the second with the second, and so on.
+- This targeted pairing enables testing multiple dependent variables simultaneously without redundancy or excessive requests.
+
+---
+
+#responsetiming #ratelimit
