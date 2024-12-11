@@ -75,3 +75,5 @@ FUZZUSER: adkit
 
 
 now if we didn't do/add the -mc flag, we would get a lot of results back and we would have to just see what is getting repeated in the results and we can start filtering things out such as filtering out the Size and the Words. 
+
+#Rawnotes #raw-notes 

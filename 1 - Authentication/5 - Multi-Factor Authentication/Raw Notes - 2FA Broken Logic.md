@@ -61,3 +61,5 @@ We copy and paste that cookie and we go back to the browser, we open up the cons
 And from there, we go to the Application tab in the console, and we see that there is a there is already a verify wiener, we can delete that stored cookie in there and place in our own, there is a Session with a value of a cookie, and we can copy and paste our cookie value from the attack.
 
 and we head to the url and add in /my-account?id=carlos and we complete the lab!
+
+#Rawnotes #raw-notes 

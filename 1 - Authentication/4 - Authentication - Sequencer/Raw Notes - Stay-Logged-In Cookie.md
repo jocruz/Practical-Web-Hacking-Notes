@@ -169,3 +169,4 @@ We can grab the payload that meets both of these criterias and we copy that payl
 
 So we grab the payload, we go back to repeater with our simplified request with no id in the header and no static cookie, and we replace the current stay-logged-in cookie with the payload we got, and we can send the request and in the Response render we can see that we are now logged in as Carlos Completing the lab!.
 
+#Rawnotes #raw-notes 
