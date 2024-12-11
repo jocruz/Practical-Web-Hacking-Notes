@@ -183,3 +183,5 @@ To identify vulnerabilities, test the **entire MFA flow**:
 ---
 
 Let me know if you’d like to add or adjust anything!
+
+#cookie

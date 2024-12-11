@@ -4,53 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "80309fd969f906c1",
+        "id": "c9947b3065e2b821",
         "type": "tabs",
         "children": [
           {
-            "id": "a1dcadd8d25c7f63",
+            "id": "6f4fcd818a0bbf62",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Authentication/3 - Authentication - Response Timings/Challenge Walkthrough.md",
+                "file": "Intro to the Lab.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Challenge Walkthrough"
-            }
-          },
-          {
-            "id": "986b1210d007aa05",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Authentication/5 - Multi-Factor Authentication/Multi-Factor Authentication Overview.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Multi-Factor Authentication Overview"
-            }
-          },
-          {
-            "id": "b1c1ab2b0597883c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Authentication/2 - Authentication - Brute Force/2 - Lab - Brute Forcing Authentication.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2 - Lab - Brute Forcing Authentication"
+              "title": "Intro to the Lab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -81,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#intruder",
+                "query": "tag:#logicalflaws",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -191,52 +162,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "986b1210d007aa05",
+  "active": "6f4fcd818a0bbf62",
   "lastOpenFiles": [
-    "Authentication/1 - Authentication - Intro/1 - Authentication Vulnerabilities Overview.md",
-    "Authentication/5 - Multi-Factor Authentication/Multi-Factor Authentication Overview.md",
     "Youtube Script.md",
-    "Authentication/5 - Multi-Factor Authentication",
-    "README.md",
-    "Authentication/1 - Authentication - Intro/2 - Lab - Password Reset Broken Logic.md",
-    "Authentication/4 - Authentication - Sequencer/1 - Lab- Brute forcing a Stay-Logged-In Cookie.md",
-    "Authentication/4 - Authentication - Sequencer/Raw Notes - Stay-Logged-In Cookie.md",
-    "Authentication/4 - Authentication - Sequencer/Screenshots/Pasted image 20241206212328.png",
-    "Authentication/4 - Authentication - Sequencer/Screenshots/Pasted image 20241206212127.png",
-    "Authentication/4 - Authentication - Sequencer/Screenshots/Pasted image 20241206205830.png",
-    "Authentication/4 - Authentication - Sequencer/Screenshots/Pasted image 20241206205527.png",
-    "Authentication/4 - Authentication - Sequencer/Screenshots/Pasted image 20241206204225.png",
-    "Authentication/4 - Authentication - Sequencer/Screenshots/Pasted image 20241206203932.png",
-    "Authentication/4 - Authentication - Sequencer/Screenshots",
-    "Authentication/3 - Authentication - Response Timings/3 - Lab - Username-Enumeration.md",
-    "Authentication/3 - Authentication - Response Timings/2 - Rate-Limiting.md",
-    "Authentication/3 - Authentication - Response Timings/1 - Response Timings.md",
-    "Authentication/2 - Authentication - Brute Force/Raw Notes - Brute Force.md",
-    "Authentication/2 - Authentication - Brute Force/Raw Notes - Subtly Different Response.md",
-    "Authentication/2 - Authentication - Brute Force/2 - Lab - Brute Forcing Authentication.md",
-    "Authentication/2 - Authentication - Brute Force/1 - Brute Force Attacks Overview.md",
-    "Authentication/2 - Authentication - Brute Force/3 - Lab - Username Enumeration via Subtly Different Responses.md",
-    "Authentication/1 - Authentication - Intro/3 - Raw Notes - Lab Password Reset Broken Logic.md",
-    "Authentication/3 - Authentication - Response Timings/Lab - Username Enumeration Via Response Timing.md",
-    "Authentication/4 - Authentication - Sequencer",
-    "Untitled",
-    "Authentication/3 - Authentication - Response Timings/Untitled",
-    "Authentication/3 - Authentication - Response Timings/Untitled.md",
-    "Lab - Username Enumeration via Subtly Different Responses.md",
+    "2 - Access Control/Raw - Lab Notes.md",
+    "2 - Access Control/Introduction to Access Control.md",
+    "2 - Access Control/Raw Notes- Introduction to Access Control.md",
+    "1 - Authentication/5 - Multi-Factor Authentication/1 - Multi-Factor Authentication Overview.md",
+    "2 - Access Control",
+    "1 - Authentication/2 - Authentication - Brute Force/2 - Lab - Brute Forcing Authentication.md",
+    "Intro to the Lab.md",
+    "1 - Authentication/1 - Authentication - Intro/2 - Lab - Password Reset Broken Logic.md",
+    "1 - Authentication/1 - Authentication - Intro/1 - Authentication Vulnerabilities Overview.md",
+    "1 - Authentication/1 - Authentication - Intro/3 - Raw Notes - Lab Password Reset Broken Logic.md",
     "Burp Suite Notes.md",
-    "Tools/Advance prompt.md",
-    "Tools/Prompt.md",
-    "Authentication/3 - Authentication - Response Timings/Rate Limiting.md",
-    "Authentication/3 - Authentication - Response Timings",
-    "Authentication/Authentication - Brute Force/Overview - Brute Force.md",
-    "Authentication/2 - Authentication - Brute Force",
-    "Authentication/1 - Authentication - Intro",
+    "Lab - Username Enumeration via Subtly Different Responses.md",
+    "README.md",
+    "1 - Authentication/5 - Multi-Factor Authentication/Screenshots/Pasted image 20241209155123.png",
+    "1 - Authentication/5 - Multi-Factor Authentication/Screenshots",
+    "1 - Authentication/5 - Multi-Factor Authentication/2 - Lab - 2FA Simple Bypass.md",
+    "1 - Authentication/5 - Multi-Factor Authentication/3 - Lab - 2FA broken logic.md",
+    "1 - Authentication/5 - Multi-Factor Authentication/Screenshots/Pasted image 20241209155307.png",
+    "1 - Authentication/5 - Multi-Factor Authentication/Screenshots/Pasted image 20241209155147.png",
+    "1 - Authentication/5 - Multi-Factor Authentication/Raw Notes - 2FA Broken Logic.md",
+    "1 - Authentication/5 - Multi-Factor Authentication",
+    "1 - Authentication/4 - Authentication - Sequencer/1 - Lab- Brute forcing a Stay-Logged-In Cookie.md",
+    "1 - Authentication/4 - Authentication - Sequencer/Raw Notes - Stay-Logged-In Cookie.md",
+    "1 - Authentication/4 - Authentication - Sequencer/Screenshots/Pasted image 20241206212328.png",
+    "1 - Authentication/4 - Authentication - Sequencer/Screenshots/Pasted image 20241206212127.png",
+    "1 - Authentication/4 - Authentication - Sequencer/Screenshots/Pasted image 20241206205830.png",
+    "1 - Authentication/4 - Authentication - Sequencer/Screenshots/Pasted image 20241206205527.png",
+    "1 - Authentication/4 - Authentication - Sequencer/Screenshots/Pasted image 20241206204225.png",
+    "1 - Authentication/4 - Authentication - Sequencer/Screenshots/Pasted image 20241206203932.png",
+    "1 - Authentication/4 - Authentication - Sequencer/Screenshots",
+    "1 - Authentication/3 - Authentication - Response Timings/3 - Lab - Username-Enumeration.md",
+    "1 - Authentication/3 - Authentication - Response Timings/2 - Rate-Limiting.md",
+    "1 - Authentication/3 - Authentication - Response Timings/1 - Response Timings.md",
+    "1 - Authentication/2 - Authentication - Brute Force/Raw Notes - Brute Force.md",
+    "1 - Authentication/2 - Authentication - Brute Force/Raw Notes - Subtly Different Response.md",
+    "1 - Authentication/2 - Authentication - Brute Force/1 - Brute Force Attacks Overview.md",
+    "1 - Authentication/2 - Authentication - Brute Force/3 - Lab - Username Enumeration via Subtly Different Responses.md",
+    "Authentication/3 - Authentication - Response Timings/Lab - Username Enumeration Via Response Timing.md",
+    "1 - Authentication/4 - Authentication - Sequencer",
+    "Authentication/3 - Authentication - Response Timings/Untitled",
+    "1 - Authentication/3 - Authentication - Response Timings",
+    "1 - Authentication/2 - Authentication - Brute Force",
+    "1 - Authentication/1 - Authentication - Intro",
     "Untitled/Untitled",
-    "Authentication/1 - Authentication - Intro/Screenshots/Pasted image 20241203220732.png",
-    "Authentication/1 - Authentication - Intro/Screenshots",
-    "Authentication/1 - Authentication - Intro/Screenshots/Pasted image 20241203220636.png",
-    "Authentication/1 - Authentication - Intro/Screenshots/Pasted image 20241203220337.png",
-    "Authentication/1 - Authentication - Intro/Screenshots/Pasted image 20241203220252.png",
-    "Welcome.md"
+    "1 - Authentication/1 - Authentication - Intro/Screenshots/Pasted image 20241203220732.png"
   ]
 }

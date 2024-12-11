@@ -1,8 +1,9 @@
 ### **Introduction to Authentication: Password Reset Broken Logic**
 ## 🔗 Related Topics
 - [[1 - Authentication Vulnerabilities Overview]]
-#authentication #lab #password-reset
+#authentication #lab #password-reset 
 
+https://portswigger.net/web-security/authentication/other-mechanisms/lab-password-reset-broken-logic
 ---
 
 #### **Concept Notes**
@@ -34,7 +35,7 @@ Exploit the password reset functionality to gain access to Carlos's account and 
 - Your credentials: `wiener:peter`
 - Victim's username: `carlos`
 
-##### **Steps to Exploit**
+## **Steps to Exploit**
 
 1. **Initial Reconnaissance**
     
