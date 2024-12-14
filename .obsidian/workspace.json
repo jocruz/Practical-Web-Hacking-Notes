@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c9947b3065e2b821",
+        "id": "6a0d90174dd4c632",
         "type": "tabs",
         "children": [
           {
-            "id": "6f4fcd818a0bbf62",
+            "id": "6aca7534f985fe9f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3 - SSRF/Raw - Lab - Basic SSRF against another back-end system.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Raw - Lab - Basic SSRF against another back-end system"
+              "title": "New tab"
             }
           }
         ]
@@ -162,17 +158,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6f4fcd818a0bbf62",
+  "active": "006c0ef26558edb7",
   "lastOpenFiles": [
+    "3 - SSRF/Screenshots/Pasted image 20241213232541.png",
+    "3 - SSRF/Screenshots",
+    "3 - SSRF/Screenshots/Pasted image 20241214020309.png",
+    "3 - SSRF/Raw - Lab - Basic SSRF against another back-end system.md",
     "3 - SSRF/3 - Lab -  Basic SSRF against another back-end system.md",
     "3 - SSRF/2 - Lab - Basic SSRF against the local server.md",
     "3 - SSRF/1 - Introduction to SSRF.md",
     "3 - SSRF/Raw - Lab - Basic SSRF against the local server.md",
     "3 - SSRF/Raw - Introduction to SSRF.md",
     "Lab - Username Enumeration via Subtly Different Responses.md",
-    "3 - SSRF/Raw - Lab - Basic SSRF against another back-end system.md",
-    "Pasted image 20241214020309.png",
-    "Pasted image 20241213232541.png",
     "Untitled.md",
     "2 - Access Control/3 - Attacking Weak Access Controls/3 - Lab - Referer-Based Access Control.md",
     "3 - SSRF",
@@ -197,7 +194,6 @@
     "1 - Authentication/1 - Authentication - Intro/3 - Raw Notes - Lab Password Reset Broken Logic.md",
     "1 - Authentication/1 - Authentication - Intro/2 - Lab - Password Reset Broken Logic.md",
     "1 - Authentication/1 - Authentication - Intro/1 - Authentication Vulnerabilities Overview.md",
-    "2 - Access Control/1 - Introduction to Access Control/2 - Lab - User ID controlled by request parameter.md",
     "2 - Access Control/2 - IDOR (Insecure Direct Object Reference)",
     "2 - Access Control",
     "1 - Authentication/5 - Multi-Factor Authentication/Screenshots/Pasted image 20241209155123.png",
@@ -208,7 +204,6 @@
     "1 - Authentication/4 - Authentication - Sequencer/Screenshots/Pasted image 20241206212328.png",
     "1 - Authentication/4 - Authentication - Sequencer/Screenshots/Pasted image 20241206212127.png",
     "1 - Authentication/4 - Authentication - Sequencer/Screenshots",
-    "1 - Authentication/4 - Authentication - Sequencer",
-    "Authentication/3 - Authentication - Response Timings/Untitled"
+    "1 - Authentication/4 - Authentication - Sequencer"
   ]
 }
