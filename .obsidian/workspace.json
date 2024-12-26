@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1c3bd9bbe303254e",
+        "id": "fca01397360b7e65",
         "type": "tabs",
         "children": [
           {
-            "id": "21d74308f876e566",
+            "id": "1e71f57cb9b17b6f",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "5 - File Inclusion/1 - Introduction To File Inclusion.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1 - Introduction To File Inclusion"
             }
           }
         ]
@@ -158,8 +162,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "21d74308f876e566",
+  "active": "1e71f57cb9b17b6f",
   "lastOpenFiles": [
+    "Tools/Current Note Prompt.md",
+    "Tools/Advance prompt.md",
+    "5 - File Inclusion/1 - Introduction To File Inclusion.md",
+    "5 - File Inclusion/Raw - Introduction To File Inclusion.md",
+    "4 - SQL Injection/1 - Introduction to SQL Injection (SQLi).md",
+    "2 - Access Control/1 - Introduction to Access Control/1 - Introduction to Access Control.md",
+    "5 - File Inclusion",
+    "Untitled.md",
+    "4 - SQL Injection/Raw Notes/Raw - Lab -  SQL injection UNION attack, retrieving data from other tables.md",
     "4 - SQL Injection/7 - Lab - Exploiting NoSQL operator injection to bypass authentication.md",
     "4 - SQL Injection/Raw Notes/Raw - Lab - Exploiting NoSQL operator injection to bypass authentication.md",
     "4 - SQL Injection/Raw Notes/Raw - Intro to NoSQL Injection.md",
@@ -170,9 +183,7 @@
     "4 - SQL Injection/4 - Lab - Blind SQL injection with conditional responses.md",
     "4 - SQL Injection/3 - Blind SQL Injection.md",
     "4 - SQL Injection/2 - Lab - SQL Injection UNION Attack to Retrieve Data from Other Tables.md",
-    "4 - SQL Injection/1 - Introduction to SQL Injection (SQLi).md",
     "4 - SQL Injection/Raw Notes/Raw - Blind SQL injection with conditional responses.md",
-    "Tools/Advance prompt.md",
     "Tools/Prompt.md",
     "4 - SQL Injection/3 - Lab - Blind SQL Injection with Conditional Responses 2.txt",
     "4 - SQL Injection/3 - Lab - Blind SQL Injection with Conditional Responses 1.txt",
@@ -187,18 +198,11 @@
     "2 - Access Control/3 - Attacking Weak Access Controls/Raw Notes",
     "2 - Access Control/1 - Introduction to Access Control/Raw Notes/Raw - User ID controlled by request parameter.md",
     "2 - Access Control/2 - IDOR (Insecure Direct Object Reference)/Raw Notes",
-    "4 - SQL Injection/Raw Notes/Raw - Introduction to SQL Injection.md",
     "2 - Access Control/1 - Introduction to Access Control/Raw Notes",
     "2 - Access Control/Untitled",
-    "3 - SSRF/Raw Notes/Raw - Blind SSRF.md",
     "4 - SQL Injection/Raw Notes",
-    "3 - SSRF/Raw Notes",
-    "4 - SQL Injection/Raw Notes/Raw - Lab -  SQL injection UNION attack, retrieving data from other tables.md",
-    "3 - SSRF/4 - Lab - Blind SSRF with out-of-band detection.md",
-    "3 - SSRF/Raw Notes/Raw- Lab - Blind SSRF with out-of-band detection.md",
     "3 - SSRF/Screenshots/Pasted image 20241213232541.png",
     "3 - SSRF/Screenshots/Pasted image 20241214020309.png",
-    "3 - SSRF/Raw Notes/Raw - Lab - Basic SSRF against another back-end system.md",
     "2 - Access Control/3 - Attacking Weak Access Controls/Screenshots/Pasted image 20241211131540.png",
     "2 - Access Control/3 - Attacking Weak Access Controls/Screenshots/Pasted image 20241211093915.png",
     "2 - Access Control/3 - Attacking Weak Access Controls/Screenshots/Pasted image 20241211090702.png",
