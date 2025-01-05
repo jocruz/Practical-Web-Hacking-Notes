@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d3cc3db23dfe7711",
+        "id": "aadd742089105323",
         "type": "tabs",
         "children": [
           {
-            "id": "df0a407a879855b7",
+            "id": "3dea1e847a43eb2a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "5 - File Inclusion/7 - Lab - File Path Traversal, Validation of Start of Path.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "7 - Lab - File Path Traversal, Validation of Start of Path"
             }
           }
         ]
@@ -73,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 594.5
+    "width": 342.5
   },
   "right": {
     "id": "5e2e2c12a2ab5f03",
@@ -158,15 +162,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "df0a407a879855b7",
+  "active": "3dea1e847a43eb2a",
   "lastOpenFiles": [
-    "5 - File Inclusion/2 - Lab - File path traversal, simple case.md",
-    "Tools/Whisper Note Taking.md",
     "5 - File Inclusion/6 - File Inclusion to RCE.md",
-    "5 - File Inclusion/Raw - Introduction To File Inclusion.md",
-    "5 - File Inclusion/1 - Introduction To File Inclusion.md",
-    "Untitled.md",
+    "5 - File Inclusion/7 - Lab - File Path Traversal, Validation of Start of Path.md",
     "5 - File Inclusion/5 - Lab - Bypassing Filters.md",
+    "5 - File Inclusion/1 - Introduction To File Inclusion.md",
+    "5 - File Inclusion/Raw - Introduction To File Inclusion.md",
+    "5 - File Inclusion/2 - Lab - File path traversal, simple case.md",
+    "Burp Suite Notes.md",
+    "Youtube Script.md",
+    "Untitled 2.md",
+    "Untitled.md",
+    "Tools/Whisper Note Taking.md",
     "Pasted image 20250104231338.png",
     "5 - File Inclusion/4 - Lab - File path traversal, traversal sequences blocked with absolute path bypass.md",
     "5 - File Inclusion/3 - File Inclusion Payloads.md",
@@ -184,10 +192,6 @@
     "4 - SQL Injection/Raw Notes/Raw - Lab - Blind SQL injection with time delays.md",
     "4 - SQL Injection/Untitled 1.md",
     "4 - SQL Injection/4 - Lab - Blind SQL injection with conditional responses.md",
-    "4 - SQL Injection/3 - Blind SQL Injection.md",
-    "4 - SQL Injection/2 - Lab - SQL Injection UNION Attack to Retrieve Data from Other Tables.md",
-    "4 - SQL Injection/Raw Notes/Raw - Blind SQL injection with conditional responses.md",
-    "Tools/Prompt.md",
     "4 - SQL Injection/3 - Lab - Blind SQL Injection with Conditional Responses 2.txt",
     "4 - SQL Injection/3 - Lab - Blind SQL Injection with Conditional Responses 1.txt",
     "4 - SQL Injection/3 - Lab - Blind SQL Injection with Conditional Responses.txt",

@@ -128,4 +128,6 @@ User-Agent: <?... system($_GET['cmd']); ...?>
 
 ---
 
-#FileInclusion #RemoteCodeExecution #WebSecurity #PenTesting
+## 🏷️ **_Hashtags and Tags:_**
+
+#FileInclusion #RCE #PathTraversal #LFI`
