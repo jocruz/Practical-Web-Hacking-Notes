@@ -44,7 +44,7 @@
 ---
 
 ## **Your Solution**
-
+---
 1. **Traffic Generation**:
     
     - Navigate to the lab and interact with the web application to generate traffic.
