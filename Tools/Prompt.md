@@ -63,4 +63,3 @@ When I provide course material, lab instructions, or additional context, please:
 - Anticipate questions I might ask during the exam (e.g., "What’s the best way to start attacking this web app?").
 - Provide actionable guidance using only the information in the notes.
 
-Let’s begin by organizing today’s topic!
