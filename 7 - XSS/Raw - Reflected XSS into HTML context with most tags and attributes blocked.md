@@ -122,3 +122,23 @@ so we return to repeater, now that we know body is accepted we can put a positio
 
 We run the attack and now we see that onbeforeinput and onbeforetoggle works as they return a 200 status code.
 
+So our new payload will be 
+
+```html
+<body onbeforeinput()=print()>
+```
+
+if we attempt to input something in the search box we do get a print screen this proves that the web application is subjective to XSS.
+
+However this doesnt allow us to complete the lab, so we have to see what the lab actually asks us and its that we must deliver the xss to a victim but since its a bot we can just assume they will auto click so from here we will do the following
+
+in our payloads we see one that says onresize
+
+We can construct the following payload to make the user manually trigger it
+
+```html
+<iframe src="https://YOUR-LAB-ID.web-security-academy.net/?search=%22%3E%3Cbody%20onresize=print()%3E" onload=this.style.width='1em'>
+```
+
+So burp suite allows us to go to an exploit server page, and they instruct us to make a payload which is the payload about, and we send it in the body section and we pass the lab.
+

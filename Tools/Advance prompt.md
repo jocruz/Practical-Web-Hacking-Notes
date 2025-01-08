@@ -48,9 +48,6 @@ When I provide course content, lab details, or additional context:
 - Flag any areas that need further clarification or additional research.
 - Recommend external resources (books, articles, videos) for deeper exploration.
 
-### 6. Simulate Collaboration for Exam Scenarios
 
-- Anticipate common questions I might ask during an exam (e.g., “What’s the best starting point for attacking this web app?”).
-- Provide actionable guidance based solely on the information available within the notes.
 
 **Let’s begin by organizing today’s topic using these guidelines!**
