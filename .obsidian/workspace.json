@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7 - XSS/3 - Challenge Lab - DOM XSS in document.write sink using source location.search inside a select element 1.md",
+                "file": "7 - XSS/4.3 - Lab - Exploiting Cross-Site Scripting to Steal Cookies.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3 - Challenge Lab - DOM XSS in document.write sink using source location.search inside a select element 1"
+              "title": "4.3 - Lab - Exploiting Cross-Site Scripting to Steal Cookies"
             }
           }
         ]
@@ -162,23 +162,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "006c0ef26558edb7",
+  "active": "3dea1e847a43eb2a",
   "lastOpenFiles": [
-    "7 - XSS/3 - Raw - Challenge Lab - DOM XSS in document.write sink using source location.search inside a select element.md",
+    "7 - XSS/Raw Notes/Raw - Exploiting cross-site scripting to steal cookies.md",
+    "7 - XSS/4.3 - Lab - Exploiting Cross-Site Scripting to Steal Cookies.md",
+    "7 - XSS/4.1 - Fetch API.md",
+    "7 - XSS/Raw Notes/Raw - Going Beyond Alert(1).md",
+    "7 - XSS/Raw Notes/Raw - Lab - DOM Invader.md",
+    "7 - XSS/Raw Notes/Raw - Reflected XSS into HTML context with most tags and attributes blocked.md",
+    "7 - XSS/4 - Going Beyond alert(1).md",
+    "7 - XSS/Raw Notes",
     "7 - XSS/3 - Challenge Lab - DOM XSS in document.write sink using source location.search inside a select element 1.md",
+    "7 - XSS/3 - Raw - Challenge Lab - DOM XSS in document.write sink using source location.search inside a select element.md",
     "7 - XSS/1.4 - Lab - Reflected XSS in JavaScript string with angle brackets encoded.md",
     "Pasted image 20250108001330.png",
-    "7 - XSS/Untitled 1.md",
-    "7 - XSS/Raw - Lab - DOM Invader.md",
+    "7 - XSS/Raw Notes/Untitled 1.md",
     "7 - XSS/2.2 - XSS Methodology.md",
     "7 - XSS/2.1 - Dom Invader.md",
     "7 - XSS/2 - Lab - DOM XSS in document.write sink using source location.search inside a select element.md",
-    "7 - XSS/Raw - Reflected XSS into a JavaScript string with angle brackets HTML encoded.md",
+    "7 - XSS/Raw Notes/Raw - Reflected XSS into a JavaScript string with angle brackets HTML encoded.md",
     "7 - XSS/1.3 - Lab - Stored XSS into anchor href attribute with double quotes HTML-encoded.md",
     "7 - XSS/1.2 - XSS Contexts.md",
     "7 - XSS/1 - Intro to XSS.md",
     "7 - XSS/1.1- Lab - Reflected XSS into HTML context with most tags and attributes blocked.md",
-    "7 - XSS/Raw - Reflected XSS into HTML context with most tags and attributes blocked.md",
     "Tools/Lab Prompt.md",
     "Tools/Course Notes Prompt.md",
     "4 - SQL Injection/2 - Lab - SQL Injection UNION Attack to Retrieve Data from Other Tables.md",
@@ -189,11 +195,6 @@
     "Pasted image 20250107175621.png",
     "Pasted image 20250107175005.png",
     "7 - XSS",
-    "6 - XXE/6 - Lab - Exploiting XInclude to retrieve files.md",
-    "6 - XXE/Raw- XXE Xinclude lab.md",
-    "6 - XXE/5 - XXE via XInclude.md",
-    "Tools/Prompt.md",
-    "Tools/Whisper Note Taking.md",
     "Pasted image 20250105221752.png",
     "6 - XXE",
     "Pasted image 20250104231338.png",
@@ -205,7 +206,6 @@
     "1 - Authentication/2 - Authentication - Brute Force/Raw Notes",
     "2 - Access Control/3 - Attacking Weak Access Controls/Raw Notes",
     "2 - Access Control/2 - IDOR (Insecure Direct Object Reference)/Raw Notes",
-    "2 - Access Control/1 - Introduction to Access Control/Raw Notes",
     "3 - SSRF/Screenshots/Pasted image 20241213232541.png",
     "3 - SSRF/Screenshots/Pasted image 20241214020309.png",
     "2 - Access Control/3 - Attacking Weak Access Controls/Screenshots/Pasted image 20241211131540.png",
