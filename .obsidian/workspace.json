@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7 - XSS/2.2 - XSS Methodology.md",
+                "file": "7 - XSS/3 - Challenge Lab - DOM XSS in document.write sink using source location.search inside a select element.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.2 - XSS Methodology"
+              "title": "3 - Challenge Lab - DOM XSS in document.write sink using source location.search inside a select element"
             }
           }
         ]
@@ -164,6 +164,7 @@
   },
   "active": "cabab26a82d8f243",
   "lastOpenFiles": [
+    "7 - XSS/Untitled 1.md",
     "7 - XSS/2.1 - Dom Invader.md",
     "7 - XSS/2.2 - XSS Methodology.md",
     "7 - XSS/2 - Lab - DOM XSS in document.write sink using source location.search inside a select element.md",
@@ -171,7 +172,7 @@
     "7 - XSS/Raw - Reflected XSS into a JavaScript string with angle brackets HTML encoded.md",
     "7 - XSS/Raw - Reflected XSS into HTML context with most tags and attributes blocked.md",
     "7 - XSS/1.4 - Lab - Reflected XSS in JavaScript string with angle brackets encoded.md",
-    "7 - XSS/Untitled.md",
+    "7 - XSS/3 - Challenge Lab - DOM XSS in document.write sink using source location.search inside a select element.md",
     "7 - XSS/1 - Intro to XSS.md",
     "Pasted image 20250108001330.png",
     "4 - SQL Injection/2 - Lab - SQL Injection UNION Attack to Retrieve Data from Other Tables.md",
@@ -193,7 +194,6 @@
     "Tools/Whisper Note Taking.md",
     "Tools/Advance prompt.md",
     "6 - XXE/XXE via XInclude.md",
-    "Tools/Course Notes Prompt.md",
     "Pasted image 20250105221752.png",
     "6 - XXE",
     "5 - File Inclusion/Untitled",
