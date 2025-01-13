@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "610eb56d11bed77f",
+        "id": "aadd742089105323",
         "type": "tabs",
         "children": [
           {
-            "id": "cabab26a82d8f243",
+            "id": "3dea1e847a43eb2a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "8 - JWT/5 - Header Injection.md",
+                "file": "9 - Mass Assignment/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5 - Header Injection"
+              "title": "Untitled"
             }
           }
         ]
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 594.5
+    "width": 342.5
   },
   "right": {
     "id": "5e2e2c12a2ab5f03",
@@ -162,50 +162,50 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cabab26a82d8f243",
+  "active": "3dea1e847a43eb2a",
   "lastOpenFiles": [
-    "8 - JWT/Raw - Header Injections.md",
-    "8 - JWT/5 - Header Injection.md",
-    "8 - JWT/4 - JWT Tool.md",
-    "8 - JWT/Raw - JWT Tool.md",
-    "8 - JWT/Raw - Lab - JWT authentication bypass via flawed signature verification.md",
-    "7 - XSS/5 -  Filter and WAF Evasion Techniques.md",
-    "8 - JWT/Raw - Lab - JWT authentication bypass via unverified signature.md",
+    "8 - JWT/6.1 - JWT and JWK Review.md",
+    "9 - Mass Assignment/Untitled.md",
+    "9 - Mass Assignment",
+    "8 - JWT/6 - Lab - JWT Authentication Bypass via JWK Header Injection.md",
+    "8 - JWT/Raw Notes/Raw - Lab - JWT authentication bypass via jwk header injection.md",
+    "8 - JWT/Raw Notes/Raw - Lab - JWT authentication bypass via flawed signature verification.md",
+    "8 - JWT/Raw Notes/Raw - Lab - JWT authentication bypass via unverified signature.md",
     "8 - JWT/3 - Lab - JWT Authentication Bypass via Flawed Signature Verification.md",
+    "8 - JWT/5 - Header Injection.md",
+    "8 - JWT/Raw Notes/Raw - Header Injections.md",
+    "8 - JWT/Raw Notes",
+    "8 - JWT/Raw Notes/Raw - JWT Tool.md",
+    "8 - JWT/4 - JWT Tool.md",
     "8 - JWT/2 - Lab - JWT authentication bypass via unverified signature.md",
     "8 - JWT/1 - Intro to JWT.md",
+    "Intro to the Lab.md",
     "8 - JWT",
     "7 - XSS/Raw Notes/Raw - Bypasses and Obfuscation.md",
-    "7 - XSS/1.1- Lab - Reflected XSS into HTML context with most tags and attributes blocked.md",
-    "7 - XSS/1.2 - XSS Contexts.md",
-    "7 - XSS/1.3 - Lab - Stored XSS into anchor href attribute with double quotes HTML-encoded.md",
-    "7 - XSS/1.4 - Lab - Reflected XSS in JavaScript string with angle brackets encoded.md",
-    "7 - XSS/2 - Lab - DOM XSS in document.write sink using source location.search inside a select element.md",
-    "7 - XSS/2.1 - Dom Invader.md",
-    "7 - XSS/2.2 - XSS Methodology.md",
+    "7 - XSS/5 -  Filter and WAF Evasion Techniques.md",
+    "7 - XSS/Untitled",
+    "7 - XSS/4.3 - Lab - Exploiting Cross-Site Scripting to Steal Cookies.md",
+    "7 - XSS/Raw Notes/Raw - Exploiting cross-site scripting to steal cookies.md",
+    "7 - XSS/4.1 - Fetch API.md",
+    "7 - XSS/Raw Notes/Raw - Going Beyond Alert(1).md",
+    "7 - XSS/Raw Notes/Raw - Lab - DOM Invader.md",
+    "7 - XSS/Raw Notes/Raw - Reflected XSS into HTML context with most tags and attributes blocked.md",
+    "7 - XSS/4 - Going Beyond alert(1).md",
+    "7 - XSS/Raw Notes",
     "7 - XSS/3 - Challenge Lab - DOM XSS in document.write sink using source location.search inside a select element 1.md",
     "7 - XSS/3 - Raw - Challenge Lab - DOM XSS in document.write sink using source location.search inside a select element.md",
-    "7 - XSS/4 - Going Beyond alert(1).md",
-    "7 - XSS/4.1 - Fetch API.md",
-    "7 - XSS/4.3 - Lab - Exploiting Cross-Site Scripting to Steal Cookies.md",
-    "7 - XSS/Raw - Bypasses and Obfuscation.md",
-    "Tools/Whisper Note Taking.md",
-    "7 - XSS/3 - Challenge Lab - DOM XSS in document.write sink using source location.search inside a select element.md",
-    "7 - XSS/Raw Notes",
+    "7 - XSS/1.4 - Lab - Reflected XSS in JavaScript string with angle brackets encoded.md",
     "Pasted image 20250108001330.png",
     "Pasted image 20250107175621.png",
     "Pasted image 20250107175005.png",
     "7 - XSS",
     "Pasted image 20250105221752.png",
     "6 - XXE",
-    "5 - File Inclusion/Untitled",
     "Pasted image 20250104231338.png",
     "5 - File Inclusion",
     "4 - SQL Injection/3 - Lab - Blind SQL Injection with Conditional Responses 2.txt",
     "4 - SQL Injection/3 - Lab - Blind SQL Injection with Conditional Responses 1.txt",
-    "4 - SQL Injection/3 - Lab - Blind SQL Injection with Conditional Responses.txt",
     "1 - Authentication/4 - Authentication - Sequencer/Screenshots/Pasted image 20241206203932.png",
-    "1 - Authentication/2 - Authentication - Brute Force/Raw Notes",
     "3 - SSRF/Screenshots/Pasted image 20241213232541.png",
     "3 - SSRF/Screenshots/Pasted image 20241214020309.png",
     "2 - Access Control/3 - Attacking Weak Access Controls/Screenshots/Pasted image 20241211131540.png",
