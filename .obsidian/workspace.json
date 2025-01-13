@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "aadd742089105323",
+        "id": "610eb56d11bed77f",
         "type": "tabs",
         "children": [
           {
-            "id": "3dea1e847a43eb2a",
+            "id": "cabab26a82d8f243",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "9 - Mass Assignment/Untitled.md",
+                "file": "10 - WebSocket/4.1 - Payload Explained.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "4.1 - Payload Explained"
             }
           }
         ]
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 342.5
+    "width": 594.5
   },
   "right": {
     "id": "5e2e2c12a2ab5f03",
@@ -162,53 +162,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3dea1e847a43eb2a",
+  "active": "cabab26a82d8f243",
   "lastOpenFiles": [
-    "8 - JWT/6.1 - JWT and JWK Review.md",
-    "9 - Mass Assignment/Untitled.md",
-    "9 - Mass Assignment",
-    "8 - JWT/6 - Lab - JWT Authentication Bypass via JWK Header Injection.md",
-    "8 - JWT/Raw Notes/Raw - Lab - JWT authentication bypass via jwk header injection.md",
-    "8 - JWT/Raw Notes/Raw - Lab - JWT authentication bypass via flawed signature verification.md",
-    "8 - JWT/Raw Notes/Raw - Lab - JWT authentication bypass via unverified signature.md",
-    "8 - JWT/3 - Lab - JWT Authentication Bypass via Flawed Signature Verification.md",
+    "10 - WebSocket/4 - Lab - Cross-site WebSocket Hijacking.md",
+    "10 - WebSocket/4.1 - Payload Explained.md",
+    "10 - WebSocket/Raw Notes/Raw - Lab - Cross-site WebSocket Hijacking.md",
+    "10 - WebSocket/Raw Notes/Raw - Lab -Manipulating WebSocket messages to exploit vulnerabilities.md",
+    "10 - WebSocket/Raw Notes/Raw - Web Socket Hijacking.md",
+    "10 - WebSocket/2 - Lab -  Manipulating WebSocket Messages to Exploit Vulnerabilities.md",
+    "10 - WebSocket/3 - WebSocket Hijacking.md",
+    "10 - WebSocket/Raw Notes",
+    "Pasted image 20250113015959.png",
+    "Pasted image 20250107175005.png",
+    "Pasted image 20250104231338.png",
+    "Pasted image 20250105221752.png",
+    "10 - WebSocket/1 - Introduction to WebSockets.md",
+    "9 - Mass Assignment/2 - Lab Exploiting a Mass Assignment Vulenerability.md",
+    "10 - WebSocket",
+    "9 - Mass Assignment/1 - Mass Assignment.md",
+    "9 - Mass Assignment/Raw - Lab - Exploiting a Mass Assignment Vulenerability.md",
+    "9 - Mass Assignment/Raw - Mass Assignment.md",
     "8 - JWT/5 - Header Injection.md",
+    "9 - Mass Assignment",
+    "8 - JWT/Raw Notes/Raw - Lab - JWT authentication bypass via unverified signature.md",
+    "8 - JWT/Raw Notes/Raw - Lab - JWT authentication bypass via flawed signature verification.md",
+    "8 - JWT/Raw Notes/Raw - Lab - JWT authentication bypass via jwk header injection.md",
+    "8 - JWT/Raw Notes/Raw - JWT Tool.md",
     "8 - JWT/Raw Notes/Raw - Header Injections.md",
     "8 - JWT/Raw Notes",
-    "8 - JWT/Raw Notes/Raw - JWT Tool.md",
+    "8 - JWT/6.1 - JWT and JWK Review.md",
+    "8 - JWT/6 - Lab - JWT Authentication Bypass via JWK Header Injection.md",
+    "8 - JWT/Raw - Header Injections.md",
     "8 - JWT/4 - JWT Tool.md",
-    "8 - JWT/2 - Lab - JWT authentication bypass via unverified signature.md",
-    "8 - JWT/1 - Intro to JWT.md",
-    "Intro to the Lab.md",
-    "8 - JWT",
-    "7 - XSS/Raw Notes/Raw - Bypasses and Obfuscation.md",
+    "8 - JWT/Raw - JWT Tool.md",
+    "8 - JWT/Raw - Lab - JWT authentication bypass via flawed signature verification.md",
     "7 - XSS/5 -  Filter and WAF Evasion Techniques.md",
-    "7 - XSS/Untitled",
-    "7 - XSS/4.3 - Lab - Exploiting Cross-Site Scripting to Steal Cookies.md",
-    "7 - XSS/Raw Notes/Raw - Exploiting cross-site scripting to steal cookies.md",
-    "7 - XSS/4.1 - Fetch API.md",
-    "7 - XSS/Raw Notes/Raw - Going Beyond Alert(1).md",
-    "7 - XSS/Raw Notes/Raw - Lab - DOM Invader.md",
-    "7 - XSS/Raw Notes/Raw - Reflected XSS into HTML context with most tags and attributes blocked.md",
-    "7 - XSS/4 - Going Beyond alert(1).md",
+    "8 - JWT/Raw - Lab - JWT authentication bypass via unverified signature.md",
+    "8 - JWT",
     "7 - XSS/Raw Notes",
-    "7 - XSS/3 - Challenge Lab - DOM XSS in document.write sink using source location.search inside a select element 1.md",
-    "7 - XSS/3 - Raw - Challenge Lab - DOM XSS in document.write sink using source location.search inside a select element.md",
-    "7 - XSS/1.4 - Lab - Reflected XSS in JavaScript string with angle brackets encoded.md",
     "Pasted image 20250108001330.png",
     "Pasted image 20250107175621.png",
-    "Pasted image 20250107175005.png",
     "7 - XSS",
-    "Pasted image 20250105221752.png",
     "6 - XXE",
-    "Pasted image 20250104231338.png",
+    "5 - File Inclusion/Untitled",
     "5 - File Inclusion",
-    "4 - SQL Injection/3 - Lab - Blind SQL Injection with Conditional Responses 2.txt",
-    "4 - SQL Injection/3 - Lab - Blind SQL Injection with Conditional Responses 1.txt",
     "1 - Authentication/4 - Authentication - Sequencer/Screenshots/Pasted image 20241206203932.png",
     "3 - SSRF/Screenshots/Pasted image 20241213232541.png",
     "3 - SSRF/Screenshots/Pasted image 20241214020309.png",
-    "2 - Access Control/3 - Attacking Weak Access Controls/Screenshots/Pasted image 20241211131540.png",
-    "2 - Access Control/3 - Attacking Weak Access Controls/Screenshots/Pasted image 20241211093915.png"
+    "2 - Access Control/3 - Attacking Weak Access Controls/Screenshots/Pasted image 20241211131540.png"
   ]
 }
