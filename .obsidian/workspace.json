@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "610eb56d11bed77f",
+        "id": "aadd742089105323",
         "type": "tabs",
         "children": [
           {
-            "id": "cabab26a82d8f243",
+            "id": "3dea1e847a43eb2a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "12 - Race Conditions/Raw Notes/Raw  - Lab - Race Conditions with Multi Endpoint.md",
+                "file": "13 - Capstone/Capstone Summary.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Raw  - Lab - Race Conditions with Multi Endpoint"
+              "title": "Capstone Summary"
             }
           }
         ]
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 594.5
+    "width": 342.5
   },
   "right": {
     "id": "5e2e2c12a2ab5f03",
@@ -164,50 +164,51 @@
   },
   "active": "006c0ef26558edb7",
   "lastOpenFiles": [
-    "12 - Race Conditions/Raw Notes/Raw - Lab - Limit Overrun Race Conditions.md",
-    "12 - Race Conditions/6 - Lab - Race Conditions with Multi Endpoints.md",
-    "12 - Race Conditions/Raw Notes",
-    "12 - Race Conditions/Raw Notes/Raw  - Lab - Race Conditions with Multi Endpoint.md",
-    "12 - Race Conditions/5 - Multi Endpoint Race Conditions.md",
+    "13 - Capstone/Capstone Walkthrough.md",
+    "13 - Capstone/Raw - Capstone Walkthrough.md",
+    "13 - Capstone/Capstone Summary.md",
+    "7 - XSS/5 -  Filter and WAF Evasion Techniques.md",
+    "8 - JWT/6.1 - JWT and JWK Review.md",
+    "13 - Capstone",
+    "9 - Mass Assignment/Untitled.md",
+    "race condition.png",
     "Pasted image 20250113180645.png",
+    "Pasted image 20250113153648.png",
+    "Pasted image 20250113015959.png",
+    "9 - Mass Assignment/Raw - Mass Assignment.md",
+    "9 - Mass Assignment/Raw - Lab - Exploiting a Mass Assignment Vulenerability.md",
+    "9 - Mass Assignment/2 - Lab Exploiting a Mass Assignment Vulenerability.md",
+    "9 - Mass Assignment/1 - Mass Assignment.md",
+    "12 - Race Conditions/Raw Notes/Raw - Single Race Condition.md",
+    "12 - Race Conditions/Raw Notes/Raw - Single Endpoint Race Conditions.md",
+    "12 - Race Conditions/Raw Notes/Raw - Lab - Single Endpoint Race Condition.md",
+    "12 - Race Conditions/Raw Notes/Raw - Lab - Limit Overrun Race Conditions.md",
+    "12 - Race Conditions/Raw Notes/Raw  - Lab - Race Conditions with Multi Endpoint.md",
+    "12 - Race Conditions/Raw Notes",
+    "12 - Race Conditions/6 - Lab - Race Conditions with Multi Endpoints.md",
+    "12 - Race Conditions/5 - Multi Endpoint Race Conditions.md",
     "12 - Race Conditions/4 - Lab - Single End point Race Conditions.md",
     "12 - Race Conditions/3 - Single Endpoint Race Conditions.md",
     "12 - Race Conditions/2 - Lab -  Limit Overrun Race Conditions.md",
-    "12 - Race Conditions/Raw Notes/Raw - Lab - Single Endpoint Race Condition.md",
-    "12 - Race Conditions/Raw Notes/Raw - Single Endpoint Race Conditions.md",
-    "12 - Race Conditions/Raw Notes/Raw - Single Race Condition.md",
-    "Pasted image 20250113153648.png",
     "12 - Race Conditions/1 - Race Conditions.md",
-    "race condition.png",
-    "11 - Redirect/Raw Notes/Raw - Lab - DOM-based open redirection.md",
     "12 - Race Conditions",
-    "11 - Redirect/2 - Lab - Dom-Based Open Redirection.md",
-    "11 - Redirect/Raw Notes",
     "11 - Redirect/Raw Notes/Raw - Open Redirects.md",
+    "11 - Redirect/Raw Notes/Raw - Lab - DOM-based open redirection.md",
+    "11 - Redirect/Raw Notes",
+    "11 - Redirect/2 - Lab - Dom-Based Open Redirection.md",
     "11 - Redirect/1 - Open Redirects.md",
-    "10 - WebSocket/4.1 - Payload Explained.md",
     "11 - Redirect",
-    "10 - WebSocket/4 - Lab - Cross-site WebSocket Hijacking.md",
-    "10 - WebSocket/Raw Notes/Raw - Lab - Cross-site WebSocket Hijacking.md",
-    "10 - WebSocket/Raw Notes/Raw - Lab -Manipulating WebSocket messages to exploit vulnerabilities.md",
     "10 - WebSocket/Raw Notes/Raw - Web Socket Hijacking.md",
-    "10 - WebSocket/2 - Lab -  Manipulating WebSocket Messages to Exploit Vulnerabilities.md",
-    "10 - WebSocket/3 - WebSocket Hijacking.md",
     "10 - WebSocket/Raw Notes",
-    "Pasted image 20250113015959.png",
-    "Pasted image 20250107175005.png",
-    "Pasted image 20250104231338.png",
-    "Pasted image 20250105221752.png",
-    "10 - WebSocket/1 - Introduction to WebSockets.md",
-    "9 - Mass Assignment/2 - Lab Exploiting a Mass Assignment Vulenerability.md",
     "10 - WebSocket",
-    "9 - Mass Assignment/1 - Mass Assignment.md",
+    "10 - Capstop",
     "9 - Mass Assignment",
     "8 - JWT/Raw Notes",
-    "8 - JWT",
-    "7 - XSS/Raw Notes",
     "Pasted image 20250108001330.png",
     "Pasted image 20250107175621.png",
+    "Pasted image 20250107175005.png",
+    "Pasted image 20250105221752.png",
+    "Pasted image 20250104231338.png",
     "1 - Authentication/4 - Authentication - Sequencer/Screenshots/Pasted image 20241206203932.png"
   ]
 }
