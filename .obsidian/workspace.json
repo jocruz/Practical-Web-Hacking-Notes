@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "13 - Capstone/Capstone Summary.md",
+                "file": "Miscellaneous/Burp Suite Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Capstone Summary"
+              "title": "Burp Suite Notes"
             }
           }
         ]
@@ -164,17 +164,28 @@
   },
   "active": "006c0ef26558edb7",
   "lastOpenFiles": [
+    "Miscellaneous/Youtube Script.md",
+    "Miscellaneous/Burp Suite Notes.md",
+    "Miscellaneous",
+    "Miscellaneous/Intro to the Lab.md",
+    "Miscellaneous/README.md",
+    "Pasted Images/race condition.png",
+    "Pasted Images/Pasted image 20250104231338.png",
+    "Pasted Images/Pasted image 20250107175005.png",
+    "Pasted Images/Pasted image 20250108001330.png",
+    "Pasted Images/Pasted image 20250113180645.png",
+    "Pasted Images",
+    "Pasted Images/Pasted image 20250113153648.png",
+    "Pasted Images/Pasted image 20250105221752.png",
+    "Pasted Images/Pasted image 20250107175621.png",
+    "13 - Capstone/Capstone Summary.md",
     "13 - Capstone/Capstone Walkthrough.md",
     "13 - Capstone/Raw - Capstone Walkthrough.md",
-    "13 - Capstone/Capstone Summary.md",
     "7 - XSS/5 -  Filter and WAF Evasion Techniques.md",
     "8 - JWT/6.1 - JWT and JWK Review.md",
     "13 - Capstone",
     "9 - Mass Assignment/Untitled.md",
-    "race condition.png",
-    "Pasted image 20250113180645.png",
-    "Pasted image 20250113153648.png",
-    "Pasted image 20250113015959.png",
+    "Pasted Images/Pasted image 20250113015959.png",
     "9 - Mass Assignment/Raw - Mass Assignment.md",
     "9 - Mass Assignment/Raw - Lab - Exploiting a Mass Assignment Vulenerability.md",
     "9 - Mass Assignment/2 - Lab Exploiting a Mass Assignment Vulenerability.md",
@@ -193,22 +204,11 @@
     "12 - Race Conditions/1 - Race Conditions.md",
     "12 - Race Conditions",
     "11 - Redirect/Raw Notes/Raw - Open Redirects.md",
-    "11 - Redirect/Raw Notes/Raw - Lab - DOM-based open redirection.md",
     "11 - Redirect/Raw Notes",
-    "11 - Redirect/2 - Lab - Dom-Based Open Redirection.md",
-    "11 - Redirect/1 - Open Redirects.md",
     "11 - Redirect",
-    "10 - WebSocket/Raw Notes/Raw - Web Socket Hijacking.md",
     "10 - WebSocket/Raw Notes",
     "10 - WebSocket",
     "10 - Capstop",
-    "9 - Mass Assignment",
-    "8 - JWT/Raw Notes",
-    "Pasted image 20250108001330.png",
-    "Pasted image 20250107175621.png",
-    "Pasted image 20250107175005.png",
-    "Pasted image 20250105221752.png",
-    "Pasted image 20250104231338.png",
     "1 - Authentication/4 - Authentication - Sequencer/Screenshots/Pasted image 20241206203932.png"
   ]
 }
