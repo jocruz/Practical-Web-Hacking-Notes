@@ -219,5 +219,3 @@ Understand if a token appears random and use Burp Suite's **Sequencer** to analy
 ---
 
 #lab #burpsuite #intruder #sequencer #authentication
-
-Let me know if any further adjustments are needed!

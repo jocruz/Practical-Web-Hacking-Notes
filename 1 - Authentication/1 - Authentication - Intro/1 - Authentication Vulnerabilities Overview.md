@@ -4,13 +4,13 @@
 
 ---
 
-# 🔒 **High-Level Summary: Authentication Vulnerabilities**
+# 🔒 High-Level Summary: Authentication Vulnerabilities
 
 Authentication vulnerabilities arise from **weak** or **flawed mechanisms** used to verify user identity, leading to unauthorized access, privilege escalation, and exploitation of application functionality.
 
 ---
 
-## **Key Takeaways**
+## Key Takeaways
 
 - **Authentication**: Verifies _who you are_ (e.g., login credentials).
 - **Authorization**: Determines _what you can do_ (e.g., access levels).
@@ -23,7 +23,7 @@ Authentication vulnerabilities arise from **weak** or **flawed mechanisms** used
 
 ---
 
-## 📝 **Definition Bank**
+## 📝 Definition Bank
 
 |Term|Definition|Example|
 |---|---|---|
@@ -37,20 +37,20 @@ Authentication vulnerabilities arise from **weak** or **flawed mechanisms** used
 
 ---
 
-## 🔒 **Advanced Notes on Authentication Vulnerabilities**
+## 🔒 Advanced Notes on Authentication Vulnerabilities
 
-### **Overview**
+### Overview
 
-- **What Are Authentication Vulnerabilities?**
+- **What Are Authentication Vulnerabilities?
     - Weak or flawed mechanisms for verifying identity.
     - Leads to **unauthorized access** and **privilege escalation**.
 
-### **Key Concepts**
+### Key Concepts
 
 - **Authentication**: Ensures the user is who they claim to be.
 - **Authorization**: Controls access based on verified identity.
 
-### **Common Authentication Mechanisms**
+### Common Authentication Mechanisms
 
 1. **Knowledge Factors**: What the user knows.
     - Examples: Passwords, security questions.
@@ -61,7 +61,7 @@ Authentication vulnerabilities arise from **weak** or **flawed mechanisms** used
 
 ---
 
-### **Causes of Vulnerabilities**
+### Causes of Vulnerabilities
 
 - **Weak Mechanisms**:
     - No safeguards against **brute-force attacks**.
@@ -69,7 +69,7 @@ Authentication vulnerabilities arise from **weak** or **flawed mechanisms** used
 - **Implementation Flaws**:
     - Coding errors leading to **broken authentication**.
 
-### **Impacts of Vulnerabilities**
+### Impacts of Vulnerabilities
 
 - **Unauthorized Access**: Leads to **data breaches** or **functionality exploitation**.
 - **Privilege Escalation**:
@@ -78,7 +78,7 @@ Authentication vulnerabilities arise from **weak** or **flawed mechanisms** used
 
 ---
 
-## 💡 **Examples of Authentication Vulnerabilities**
+## 💡 Examples of Authentication Vulnerabilities
 
 1. **Password-based login**:
     - Vulnerable to brute force if rate-limiting is absent.
@@ -89,7 +89,7 @@ Authentication vulnerabilities arise from **weak** or **flawed mechanisms** used
 
 ---
 
-## ✅ **Best Practices for Prevention**
+## ✅ Best Practices for Prevention
 
 1. **Strengthen Mechanisms**:
     - Use **multi-factor authentication (MFA)**.
@@ -100,7 +100,7 @@ Authentication vulnerabilities arise from **weak** or **flawed mechanisms** used
 
 ---
 
-### **Summary of Key Points**
+### Summary of Key Points
 
 1. Authentication ensures identity, while authorization defines access.
 2. Vulnerabilities arise from weak mechanisms and coding flaws.
@@ -108,7 +108,7 @@ Authentication vulnerabilities arise from **weak** or **flawed mechanisms** used
 
 ---
 
-## 💭 **Thought-Provoking Questions**
+## 💭 Thought-Provoking Questions
 
 1. How does OAuth compare to other authentication mechanisms in terms of security?
 2. What specific steps would you take to prevent brute-force attacks?
@@ -116,7 +116,7 @@ Authentication vulnerabilities arise from **weak** or **flawed mechanisms** used
 
 ---
 
-## 📘 **Additional Resources**
+## 📘 Additional Resources
 
 1. **Books**:
     - "Web Application Security: Exploitation and Countermeasures" by Andrew Hoffman.
@@ -127,7 +127,7 @@ Authentication vulnerabilities arise from **weak** or **flawed mechanisms** used
 
 ---
 
-## 🌟 **Glossary**
+## 🌟 Glossary
 
 - **MFA (Multi-Factor Authentication)**: Using multiple factors (knowledge, possession, or inherence) to verify identity.
 - **Token**: A secure digital key for verifying a user's identity or granting access.
@@ -135,7 +135,7 @@ Authentication vulnerabilities arise from **weak** or **flawed mechanisms** used
 
 ---
 
-### 🧠 **Memory Aid for Authentication Types**
+### 🧠 Memory Aid for Authentication Types
 
 **KPI**:
 
@@ -147,7 +147,7 @@ Authentication vulnerabilities arise from **weak** or **flawed mechanisms** used
 
 ---
 
-## 🎥 **Video Notes: Authentication Overview**
+## 🎥 Video Notes: Authentication Overview
 
 ### **Key Concepts**
 
@@ -160,7 +160,7 @@ Authentication vulnerabilities arise from **weak** or **flawed mechanisms** used
 
 ---
 
-### **Common Types of Authentication**
+### Common Types of Authentication
 
 1. **Password-Based Authentication**
     - Relies on knowledge factors (e.g., passwords).
@@ -171,7 +171,7 @@ Authentication vulnerabilities arise from **weak** or **flawed mechanisms** used
 
 ---
 
-### **Common Weaknesses**
+### Common Weaknesses
 
 - **Lack of Brute-Force Protection**:
     - Systems fail to limit repeated login attempts, enabling password guessing.
@@ -180,7 +180,7 @@ Authentication vulnerabilities arise from **weak** or **flawed mechanisms** used
 
 ---
 
-### **General Process for Analyzing Authentication**
+### General Process for Analyzing Authentication
 
 1. **Map the Authentication Attack Surface**:
     - Identify every step from being unauthenticated to authenticated.

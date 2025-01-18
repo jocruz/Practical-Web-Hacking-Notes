@@ -5,7 +5,6 @@
 Use brute force techniques to identify valid username and password combinations.
 
 [Guided Lab: Brute Force Attacks](https://portswigger.net/web-security/authentication/password-based/lab-username-enumeration-via-different-responses)
----
 
 ## Lab Steps
 
